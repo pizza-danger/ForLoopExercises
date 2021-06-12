@@ -7,16 +7,16 @@
 /*for (let i = 0; i < 21; i++) {
   console.log(i);
 }
-*/
 //b
 for (let i = 3; i < 30; i = i + 2) {
   console.log(i);
 }
-/*
+*/
 //c
 for (let i = 12; i > -15; i = i -2) {
   console.log(i);
 }
+/*
 //d
 for (let i = 50; i > 19; i --) {
   if (i%3) {
