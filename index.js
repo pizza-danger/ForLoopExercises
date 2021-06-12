@@ -16,13 +16,14 @@ for (let i = 3; i < 30; i = i + 2) {
 for (let i = 12; i > -15; i = i -2) {
   console.log(i);
 }
-*/
+
 //d
 for (let i = 50; i > 19; i --) {
   if (i % 3 === 0) {
     console.log(i);
   }
 }
+*/
 /*Exercise #2: 
 Initialize two variables to hold the string “LaunchCode” and the array [1, 5, ‘LC101’, ‘blue’, 42].
 
@@ -30,9 +31,17 @@ Initialize two variables to hold the string “LaunchCode” and the array [1, 5
 Construct ``for`` loops to accomplish the following tasks:
   a. Print each element of the array to a new line.
   b. Print each character of the string - in reverse order - to a new line. */ 
-
-
-
+let launchCode = "LaunchCode";
+let array = [1, 5, 'LC101', 'blue', 42];
+//a.
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+//b.
+//console.log(launchCode.length);
+for (let i = 10; i > -1; i--) {
+  console.log(launchCode[i]);
+}
 
 
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
