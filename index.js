@@ -53,10 +53,13 @@ let array = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
 let even = [];
 let odd = [];
 //a.
-for (let i = 0; i < array.length; i?????) {
-  if () {
+for (let i = 0; i < array.length; i++) {
+  if (array[i] % 2 === 0) {
   even.push(array[i]);
-    else {
+  }  else {
       odd.push(array[i]);
     }
 }
+console.log(even);
+console.log(odd);
+/*You need need to grab elements in an array(array[i]) and divide it by modulo (%) and if the result (===) zero it is even. Hope this gets you going. Let me know if you need help.*/
