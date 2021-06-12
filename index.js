@@ -31,6 +31,7 @@ Initialize two variables to hold the string “LaunchCode” and the array [1, 5
 Construct ``for`` loops to accomplish the following tasks:
   a. Print each element of the array to a new line.
   b. Print each character of the string - in reverse order - to a new line. */ 
+/*
 let launchCode = "LaunchCode";
 let array = [1, 5, 'LC101', 'blue', 42];
 //a.
@@ -42,8 +43,20 @@ for (let i = 0; i < array.length; i++) {
 for (let i = 10; i > -1; i--) {
   console.log(launchCode[i]);
 }
-
+*/
 
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
+
+let array = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
+let even = [];
+let odd = [];
+//a.
+for (let i = 0; i < array.length; i?????) {
+  if () {
+  even.push(array[i]);
+    else {
+      odd.push(array[i]);
+    }
+}
